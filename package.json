@@ -1,0 +1,44 @@
+{
+  "name": "lint-templates",
+  "description": "Finds helpers that aren't registered and variabled that aren't defined on the context. Can be used as a middleware with assemble, Template, verb, generate, and other apps built on Template.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jonschlinkert/lint-templates",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonschlinkert/lint-templates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/lint-templates/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/lint-templates/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "get-value": "^1.1.4",
+    "has-value": "^0.2.0",
+    "log-symbols": "^1.0.2",
+    "rethrow": "^0.1.0",
+    "set-value": "^0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": []
+}
