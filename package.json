@@ -1,7 +1,7 @@
 {
   "name": "lint-templates",
-  "description": "Finds helpers that aren't registered and variabled that aren't defined on the context. Can be used as a middleware with assemble, Template, verb, generate, and other apps built on Template.",
-  "version": "0.1.1",
+  "description": "Finds helpers that aren't registered and variables that aren't defined on the context. Can be used as a middleware with assemble, Template, verb, generate, and other apps built on Template.",
+  "version": "0.1.2",
   "homepage": "https://github.com/jonschlinkert/lint-templates",
   "author": {
     "name": "Jon Schlinkert",
